@@ -1,0 +1,179 @@
+/* Estilos universales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+
+/* Estilos de botones */
+.boton {
+    width: 100%;
+    background: #1f53c5;
+    border: 0.1px solid rgba(255, 255, 255, 0.418);
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.botones {
+    padding: 7px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(255, 255, 255, 0.384);
+    color: white;
+    font-weight: bold;
+    background: #365CDF;
+}
+
+.botones:hover {
+    cursor: pointer;
+}
+
+/* Estilos para imagenes */
+.fabrica-img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.img-redes {
+    width: 40px;
+    margin: 5px;
+    background: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+body {
+    background-image: url('/img/fondo/background-1.jpg');
+}
+
+header {
+    background-color: #0e70e0c7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0e70e0c7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos de contenedores */
+.container {
+    display: block;
+    width: 80%;
+    padding: auto;
+    margin: auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.container-gris {
+    background: #24303c;
+    padding: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 4px;
+    color: white;
+}
+
+.container-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.formulario {
+    width: 400px;
+}
+
+.formulario h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.mapa h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, textarea {
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff13;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
+.mapa {
+    background: #24303c;
+    padding: 30px;
+
+}
+
+.autor {
+    font-weight: bold;
+}
