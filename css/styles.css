@@ -49,6 +49,7 @@
     border-radius: 6px;
 }
 
+/* Partes semanticas */
 body {
     background-image: url('/img/fondo/background-1.jpg');
 }
@@ -89,6 +90,22 @@ footer {
     padding: 1rem;
 }
 
+label {
+    font-weight: 600;
+}
+
+input, textarea {
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
 /* Estilos de contenedores */
 .container {
     display: block;
@@ -119,6 +136,7 @@ footer {
     grid-auto-rows: 100px;
 }
 
+/* Clases creadas */
 .card {
     width: 300px;
     height: 300px;
@@ -139,22 +157,6 @@ footer {
     font-size: 22px;
     margin-bottom: 20px;
     color: white;
-}
-
-label {
-    font-weight: 600;
-}
-
-input, textarea {
-    margin-top: 5px;
-}
-
-textarea {
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
-    font-family: 'calibri';
-    font-size: 16px;
 }
 
 .controls {
