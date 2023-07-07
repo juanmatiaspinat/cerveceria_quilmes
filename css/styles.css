@@ -51,7 +51,7 @@
 
 /* Partes semanticas */
 body {
-    background-image: url('img/fondo/background-1.jpg');
+    background-image: url('../img/fondo/background-1.jpg');
 }
 
 header {
